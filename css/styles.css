@@ -13,7 +13,6 @@
     --footer-background-color: #2F303A;
     --header-border-color: #ECECEC; 
     --project-border-color: #EEEEEE;
-
     --svg-primary-color: #AFB1B8;
 
     --project-card-set-gap: 30px;
@@ -147,6 +146,8 @@ img {
 
 /* main Студія */
 
+/* Секція "hero" */
+
 .hero {
     background-color: var(--hero-background-color);
     text-align: center;
@@ -203,6 +204,8 @@ img {
     background-color: var(--secondary-accent-color);
 }
    
+/* Секція "advantage" */
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -247,6 +250,8 @@ img {
     letter-spacing: 0.03em;
 }
 
+/* Секція "work" */
+
 .work {
     padding-top: 0;
 }
@@ -272,6 +277,8 @@ img {
 .work-list .item + .item {
     margin-left: 30px;
 }
+
+/* Секція "team" */
 
 .team {
     background-color: var(--secondary-background-color);
@@ -331,6 +338,7 @@ img {
     letter-spacing: 0.03em;
 }
 
+/* Секція "clients" */
 
 .clients-title {
     color: var(--title-text-color);
@@ -382,6 +390,8 @@ img {
 
 
 /* main Портфоліо */
+
+/* Секція "project" */
 
 .filter {
     list-style: none;
@@ -486,6 +496,16 @@ img {
     color: var(--accent-text-color);
 }
 
+.footer-contact {
+    display: flex;
+    align-items:baseline;
+}
+
+.bloc-residence {
+    display: block;
+    margin-right: 70px;
+}
+
 .footer-contact .logo {
     display: inline-block;
     margin-bottom: 20px;
@@ -531,3 +551,19 @@ img {
     color: var(--primary-accent-color);
 }
 
+.bloc-join {
+    display: block;
+
+}
+
+.join {
+    color: var(--accent-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    font-style: normal;
+    margin-bottom: 20px;
+}
