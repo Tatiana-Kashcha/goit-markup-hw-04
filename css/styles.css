@@ -14,6 +14,8 @@
     --header-border-color: #ECECEC; 
     --project-border-color: #EEEEEE;
 
+    --svg-primary-color: #AFB1B8;
+
     --project-card-set-gap: 30px;
 }
 
@@ -359,8 +361,9 @@ img {
 .icon-clients {
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--svg-primary-color);
     border-radius: 4px;
+    color: var(--svg-primary-color) ;
 
     display: flex;
     justify-content: center;
@@ -369,12 +372,14 @@ img {
 
 .icon-clients:hover, .icon-clients:focus {
     border-color: var(--primary-accent-color);
+    color: var(--primary-accent-color);
 }
 
 .icon {
     display: block;
     fill: currentColor;
 }
+
 
 /* main Портфоліо */
 
