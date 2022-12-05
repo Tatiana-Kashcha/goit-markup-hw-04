@@ -9,7 +9,7 @@
     --primary-background-color: #FFFFFF;
     --secondary-background-color: #F5F4FA;
 
-    --hero-background-color:#2F303A;
+    --hero-background-color:#C4C4C4;
     --footer-background-color: #2F303A;
     --header-border-color: #ECECEC; 
     --project-border-color: #EEEEEE;
@@ -150,6 +150,20 @@ img {
     text-align: center;
 
     padding: 200px 0;
+}
+
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
+    url("../images/Img-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -315,6 +329,52 @@ img {
     letter-spacing: 0.03em;
 }
 
+
+.clients-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    list-style: none;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.clients-list .item {
+    display: flex; 
+}
+
+.clients-list .item + .item {
+    margin-left: 30px;
+}
+
+.icon-clients {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-clients:hover, .icon-clients:focus {
+    border-color: var(--primary-accent-color);
+}
+
+.icon {
+    display: block;
+    fill: currentColor;
+}
 
 /* main Портфоліо */
 
