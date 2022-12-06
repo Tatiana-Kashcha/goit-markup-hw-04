@@ -124,7 +124,7 @@ img {
 }
 
 .contact .item + .item {
-    margin-left: 50px;
+    margin-left: 30px;
 }
     
 .contact-link {
@@ -135,15 +135,22 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    display: flex;
+    align-items: center;
 }
 
 .contact-link:hover, .contact-link:focus {
     color: var(--primary-accent-color);
 }
 
+.contact-link .icon {
+    fill: currentColor;
+    
+    margin-right: 10px;
+}
 
 /* main Студія */
 
